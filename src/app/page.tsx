@@ -7,7 +7,6 @@ import Wrapper from "@/components/wrapper";
 import { arrivalItems, youngFavItems } from "@/constants";
 import Image from "next/image";
 
- 
 export default function Home() {
   return (
     <>
@@ -136,13 +135,16 @@ export default function Home() {
           <p className="text-white font-medium">
             Type your email down below and be young wild generation
           </p>
-          <div className="relative max-w-lg w-fit flex items-center bg-white rounded-lg overflow-hidden border-2 border-transparent focus-within:border-black duration-150">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-1">
             <input
               type="text"
               placeholder="Add your email here"
-              className="flex-1 p-3 focus:outline-none"
+              className="px-4 py-2 focus:outline-none border-4 border-transparent focus:border-yellow-500 rounded-lg"
             />
-            <button className="mx-2 px-4 py-2 bg-black text-sm font-semibold tracking-wide text-white uppercase rounded-lg">
+            <button
+              className="
+          px-4 py-3 bg-black text-sm font-semibold tracking-wide text-white uppercase rounded-lg"
+            >
               send
             </button>
           </div>
@@ -150,7 +152,7 @@ export default function Home() {
       </Wrapper>
 
       <Wrapper className="bg-black text-white px-10 lg:px-20 py-20 flex flex-col items-center sm:items-start text-center sm:text-left">
-     <Footer />
+        <Footer />
       </Wrapper>
     </>
   );
