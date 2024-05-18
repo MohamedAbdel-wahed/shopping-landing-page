@@ -136,11 +136,11 @@ export default function Home() {
           <p className="text-white font-medium">
             Type your email down below and be young wild generation
           </p>
-          <div className="relative w-fit flex items-center bg-white rounded-lg overflow-hidden border-2 border-transparent focus-within:border-black duration-150">
+          <div className="relative max-w-lg w-fit flex items-center bg-white rounded-lg overflow-hidden border-2 border-transparent focus-within:border-black duration-150">
             <input
               type="text"
               placeholder="Add your email here"
-              className="p-3 focus:outline-none"
+              className="flex-1 p-3 focus:outline-none"
             />
             <button className="mx-2 px-4 py-2 bg-black text-sm font-semibold tracking-wide text-white uppercase rounded-lg">
               send
