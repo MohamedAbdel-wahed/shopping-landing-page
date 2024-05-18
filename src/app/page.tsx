@@ -136,7 +136,7 @@ export default function Home() {
           <p className="text-white font-medium">
             Type your email down below and be young wild generation
           </p>
-          <div className="relative w-fit bg-white rounded-lg overflow-hidden border-2 border-transparent focus-within:border-black duration-150">
+          <div className="relative w-fit flex items-center bg-white rounded-lg overflow-hidden border-2 border-transparent focus-within:border-black duration-150">
             <input
               type="text"
               placeholder="Add your email here"
