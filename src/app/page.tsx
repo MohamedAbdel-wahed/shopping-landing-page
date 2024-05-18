@@ -6,7 +6,7 @@ import SectionTitle from "@/components/section-title";
 import Wrapper from "@/components/wrapper";
 import { arrivalItems, youngFavItems } from "@/constants";
 import Image from "next/image";
-import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -72,7 +72,7 @@ export default function Home() {
 
       <Wrapper noPadding className="mt-24 relative text-black/90">
         <div className="absolute inset-0 bg-[#E0C340]/70 z-20"></div>
-        <div className="p-10 bg-banner bg-cover flex flex-col items-center">
+        <div className="p-16 bg-banner bg-cover flex flex-col items-center">
           <div className="max-w-sm xl:max-w-xl flex flex-col gap-6 md:gap-9 z-30">
             <h2 className="flex flex-col gap-2 text-6xl xl:text-7xl font-extrabold uppercase">
               <span className="self-start p-1 bg-white">payday</span>
