@@ -7,7 +7,7 @@ import Wrapper from "@/components/wrapper";
 import { arrivalItems, youngFavItems } from "@/constants";
 import Image from "next/image";
 
-
+ 
 export default function Home() {
   return (
     <>
